@@ -38,4 +38,14 @@ public class Borrower {
     public void setBooks(List<Book> books) {
         this.books = books;
     }
+
+    public void addBook(Book book){
+        this.books.add(book);
+
+    }
+
+    public void removebook(Book book){
+        this.books.remove(book);
+    }
+
 }
