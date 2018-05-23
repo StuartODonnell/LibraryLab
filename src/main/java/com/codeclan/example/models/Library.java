@@ -38,4 +38,13 @@ public class Library {
     public void setBooks(List<Book> books) {
         this.books = books;
     }
+
+    public void addBooks(Book book){
+        this.books.add(book);
+    }
+
+    public void removeBooks(Book book){
+        this.books.remove(book);
+    }
+
 }
