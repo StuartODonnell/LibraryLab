@@ -2,6 +2,7 @@ package com.codeclan.example.models;
 
 public class Book {
 
+    int id;
     String title;
     String author;
 
@@ -11,6 +12,14 @@ public class Book {
     public Book(String title, String author) {
         this.title = title;
         this.author = author;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTitle() {
